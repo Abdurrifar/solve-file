@@ -1,7 +1,13 @@
+
+
+
 body{
     font-family: 'Merriweather', serif;
-    height: 2500px;
+    height: 5500px;
     color: #FFFFFF;
+    max-width: 1170px;
+    margin: auto;
+    
 }
 /* header style ********* */
 header{
@@ -150,11 +156,11 @@ width: 230px;
 margin-right: 125px;
 
 }
-.mid-ninght-arrange a{
+ .mid-ninght-arrange a{
     text-decoration: none;
-    background-color: crimson;
+    background-color: #FF0000;
     padding: 3px 6px;
-    border-radius: 2px;
+    border-radius: 4px;
     cursor: pointer;
     margin-top: 50px;
     display: block;
@@ -172,7 +178,218 @@ color: #FFF;
 
 /* section********************* */
 section{
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 8px;
+    width: 1170px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+  
+
+}
+
+.arrange-date a{
+ text-align: center;
+padding: 4px 15px;
+border-radius: 4px;
+background: #F00;
+text-decoration: none;
+color: #FFF;
+font-weight: 800;
+}
+.arrange-date p{  
+color: #070211;
+font-weight: 600;
+line-height: 18px;
+font-size: 28px;
+
+
+}
+.arrange-date span{
+    color: #F00;
+}
+
+/* aside*********** */
+.arrange-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    border-radius: 8px;
+    margin: 0 auto;
+    gap: 95px;
+    margin-bottom: 80px;
+
+  
+
+
+}
+
+
+
+.soon-offer{
+    text-align: left;
+}
+.soon-offer span{
+    color: #F00;
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 600;
+}
+.soon-offer h2{
+    color: #070211;
+    font-weight: 900;
+
+}
+ .soon-offer p{
+    font-family: Inter;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    width: auto;
+    font-weight: 400;
+}
+
+.festival-pic img{
+    width: auto;
+    height:210px;
+    border: 8px solid #FF0000;
+    border-radius: 50%;
+    padding: 25px;
+}
+
+
+
+.gift-box{
+    display: block;
+    text-align:left;
+    align-items:last baseline;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 75px;
+}
+.gift-box p{
+    color: rgba(7, 2, 17, 0.60);
+}
+.gift-box h2{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 800;
+}
+/* start wrapper****************************************** */
+wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 1170px;
+}
+.offer-quality {
+    color: #070211;
     
 }
+
+
+#offer-identity .offer-pic{
+    display: flex;
+    justify-content: space-between;
+    width: 1220px;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+#offer-identity .tob img{
+    width: 680px;
+    height: 716px;
+}
+.offer-quality h5{
+    color: #070211;
+}
+
+.offer-quality span{
+    color:#FF0000
+}
+.offer-quality h1{
+    font-size: 48px;
+    font-weight: 900;
+    font-family: Merriweather;
+}
+.offer-quality h5{
+    color:#070211;
+    font-size: 19px;
+    font-weight: 600px;
+    font-family: normal;
+}
+#position-pic img{
+    position: relative;
+    bottom: 287px;
+    z-index:-1;
+   
+  
+}
+
+
+.relative{
+    position:absolute ;
+    z-index: -1;
+    margin-left: 163px;
+    
+}
+.absolute{
+    position: relativee;
+    margin-right: 184px;
+}
+/* end wrapper******************************* */
+
+
+/* start portfolio offer*********************** */
+portfolio{
+    display: flex;
+    margin: 0 auto;
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+    right:70px;
+    position: relative;
+    
+
+}
+.offer-details h3{
+    color: #FF0000;
+}
+.offer-details h2{
+color:#070211;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+margin: 12px 0 16px;
+
+
+}
+.offer-details p{
+ color: rgba(7, 2, 17, 0.60);
+ font-style: normal;
+ line-height: 19px;
+}
+
+#discountal-products{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) 400px;
+    width: 1170px;
+    grid-gap: 20px;
+}
+#discountal-products img{
+    width: 424px;
+    height: 430px;
+}
+/* end portfolio offer*********************** */
+
+
+
+
 
 /* end main********************** */
