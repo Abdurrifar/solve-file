@@ -3,7 +3,7 @@
 
 body{
     font-family: 'Merriweather', serif;
-    height: 5500px;
+    height: 7500px;
     color: #FFFFFF;
     max-width: 1170px;
     margin: auto;
@@ -181,7 +181,7 @@ section{
     background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     border-radius: 8px;
     width: 1170px;
-    height: 400px;
+    height: 500px;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -211,7 +211,13 @@ font-size: 28px;
 .arrange-date span{
     color: #F00;
 }
-
+.arrange-date h1{
+    color: #070211;
+    font-weight: 900;
+   font-size: 49px;
+    font-family: Merriweather;
+    font-style: normal
+}
 /* aside*********** */
 .arrange-items{
     display: flex;
@@ -351,8 +357,9 @@ portfolio{
     width: 1170px;
     justify-content: center;
     align-items: center;
-    right:70px;
     position: relative;
+    margin-bottom: 150px;
+
     
 
 }
@@ -380,16 +387,113 @@ margin: 12px 0 16px;
     display: grid;
     grid-template-columns:repeat(2,1fr) 400px;
     width: 1170px;
-    grid-gap: 20px;
+    grid-gap: 15px;
 }
 #discountal-products img{
-    width: 424px;
+    width: 379px;
     height: 430px;
 }
-/* end portfolio offer*********************** */
+/* end portfolio offer*********************** */ */
 
 
 
+sub-aside{
+    display: flex;
+    margin: auto;
+}
+.arranged-data{
+   
+   background: rgba(255, 0, 0, 0.05);
+    border-radius: 10px;
+    width: 1170px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+.arranged-data h1{
+    color: #070211;
+    font-weight: 900;
+   font-size: 49px;
+    font-family: Merriweather;
+    font-style: normal
+}
+.arranged-data a{
+    text-align: center;
+   padding: 21px 35px;
+   border-radius: 4px;
+   background: #F00;
+   text-decoration: none;
+   color: #FFF;
+   font-weight: 800;
+   border-radius: 0px 50px 50px 0px;
+
+   }
+
+   .arranged-data p{  
+    margin: 22px 0 32px;
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 700px;
+    line-height: 24px;
+    font-size: 18px;
+    
+    
+    }
+ .arranged-data input:visited{
+    color: brown;
+ }   
+.arranged-data input:focus{
+    color: #100f0f;
+}
+ .arranged-data input{
+    padding: 22px 35px;
+    border: none;
+    width: 250px;
+    border-radius: 50px 0px 0px 50px;
+}
+.arranged-data placeholder {
+    color: rgba(7, 2, 17, 0.30);
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
 
 
-/* end main********************** */
+/* start footer***************** */
+footer{
+   
+    background: #070211;
+    height: 700px;
+}
+#offline-location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+    
+}
+ul li{
+    list-style: none;
+   
+}
+ul li i{
+    margin: 10px;
+}
+
+.social-link li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+    width: 35px;
+   
+}
