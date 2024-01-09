@@ -13,7 +13,7 @@ body{
 header{
    
     background-image: linear-gradient(180deg, rgb(0, 0, 0),rgba(0, 0, 0, 0.051)),url("../images/Banner\ Image.png");
-
+    cursor:progress;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -67,7 +67,7 @@ line-height: 30px;
     line-height: 25px;
     text-align: center;
     margin-top: 90px;
-
+    cursor: pointer;
 
 }
 
@@ -159,7 +159,7 @@ margin-right: 125px;
  .mid-ninght-arrange a{
     text-decoration: none;
     background-color: #FF0000;
-    padding: 3px 6px;
+    padding: 8px 14px;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 50px;
@@ -169,6 +169,9 @@ margin-right: 125px;
     text-align: center;
   
 color: #FFF;
+animation: sliding 5s ease-in-out infinite alternate;
+animation-play-state: running;
+position: relative;
 
 }
 
@@ -193,30 +196,35 @@ section{
 
 .arrange-date a{
  text-align: center;
-padding: 4px 15px;
+ padding: 8px 44px;
 border-radius: 4px;
 background: #F00;
 text-decoration: none;
-color: #FFF;
+/* color: #FFF; */
+color: #070211;
 font-weight: 800;
+animation: sliding 5s ease-in-out infinite alternate;
+animation-play-state: running;
+position: relative;
 }
 .arrange-date p{  
 color: #070211;
 font-weight: 600;
 line-height: 18px;
 font-size: 28px;
-
-
+font-family: Inter;
+font-style: normal;
 }
 .arrange-date span{
     color: #F00;
+    font-style: normal; 
 }
 .arrange-date h1{
     color: #070211;
     font-weight: 900;
    font-size: 49px;
     font-family: Merriweather;
-    font-style: normal
+    font-style: normal;
 }
 /* aside*********** */
 .arrange-items{
@@ -291,6 +299,7 @@ wrapper{
     text-align: center;
     margin: 0 auto;
     width: 1170px;
+    cursor: pointer;
 }
 .offer-quality {
     color: #070211;
@@ -332,6 +341,7 @@ wrapper{
     position: relative;
     bottom: 287px;
     z-index:-1;
+    width: 1170px;
    
   
 }
@@ -340,7 +350,7 @@ wrapper{
 .relative{
     position:absolute ;
     z-index: -1;
-    margin-left: 163px;
+    margin-left: 38px;
     
 }
 .absolute{
@@ -388,11 +398,23 @@ margin: 12px 0 16px;
     grid-template-columns:repeat(2,1fr) 400px;
     width: 1170px;
     grid-gap: 15px;
+    cursor: pointer;
+ 
+
 }
+
 #discountal-products img{
     width: 379px;
     height: 430px;
+    cursor: pointer;
+   
 }
+@keyframes sliding {
+    0%   {background-color: crimson;}
+    25%  {background-color: aqua;}
+    50%  {background-color: salmon;}
+    100% {background-color: yellow;}
+}  
 /* end portfolio offer*********************** */ */
 
 
@@ -427,10 +449,13 @@ sub-aside{
    border-radius: 4px;
    background: #F00;
    text-decoration: none;
-   color: #FFF;
+   /* color: #FFF; */
+   color: #070211;
    font-weight: 800;
    border-radius: 0px 50px 50px 0px;
-
+   animation: sliding 5s ease-in-out infinite alternate;
+   animation-play-state: running;
+   position: relative;
    }
 
    .arranged-data p{  
@@ -471,29 +496,54 @@ footer{
    
     background: #070211;
     height: 700px;
+    display: flex;
+    width: 1500px;
+    margin: 80px auto;
+    left:-153px;
+    position: relative;
+    cursor: pointer;
+   
 }
+
+
 #offline-location{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
-    
-    
-}
-ul li{
-    list-style: none;
-   
-}
-ul li i{
+    width: 1450px;
+    height: 200px;
     margin: 10px;
 }
 
-.social-link li a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    height: 30px;
-    width: 35px;
-   
+.awesone-icon{
+    height: 100px;
+    width: 1450px;
 }
+ul li {
+    list-style: none;
+    color: rgb(0, 255, 30);
+    cursor:pointer;
+   
+} 
+ul {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+.fa-square-facebook{
+    width: 25px;
+}
+footer span{
+    color: #F00;
+}
+footer hr {
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+   
+    
+
+
+
+}
+/* end ****************************** */
